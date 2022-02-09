@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #9DBEBB;
+}
+.rectangle-red {
+    width: 954px;
+    height: 594px;
+    background-color: #BE0909;
+    position: absolute;
+    z-index: -2;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    width: 954px; 
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 400px;
+    position: relative;
+        left: 137px;
+        top: 40px;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21 px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: #FEFFFF;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    color: #FEFFFF;
+    display: flex;
+    align-content: center; 
+    justify-content: center; /* ?*/
+
+}
+#form {
+    background-color: #BE0909;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #468189;
+}
+button {
+    color: #FEFFFF;
+    background-color:#468189;
+    width: 202px;
+    height: 48px;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: #9DBEBB;
+    transform: scale(1.1);
+}
+.rectangle-orange {
+    width: 345px;
+    height: 594px;
+    background-color: #FFB039;
+    position: relative;
+        left:400px;
+}
+.toplayer {
+    width: 954px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: +2;
+    
+}
+img {
+    width: 663px;
+    height: 603px;
+
+    
+}
