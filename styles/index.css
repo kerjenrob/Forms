@@ -3,21 +3,33 @@ body {
     justify-content: center;
     background-color: #9DBEBB;
 }
-.rectangle-red {
+.background {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     width: 954px;
+}
+.rectangle-red {
+    width: 609px;
     height: 594px;
     background-color: #BE0909;
-    margin margin-top: 20px; /* ? */
-    position: absolute;
+    margin margin-top: 20px;
     z-index: -2;
 }
+.rectangle-orange {
+    width: 345px;
+    height: 594px;
+    background-color: #FFB039;
+    margin margin-top: 20px;
+    }
+/*  
 section {
     display: flex;
     flex-direction: row;
     width: 954px; 
 }
 
-/* left side*/
+/* left side
 .form {
     display: flex;
     flex-direction: column;
@@ -69,19 +81,12 @@ button:hover{
     background-color: #9DBEBB;
     transform: scale(1.1);
 }
-/* right side*/
+/* right side
 .right-side {
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
     max-width: 400px;
-}
-/*.rectangle-orange {
-    width: 345px;
-    height: 594px;
-    background-color: #FFB039;
-    position: absolute; 
-        left: 400px;*/
 }
 /*.duck {
    /* width: 663px;
