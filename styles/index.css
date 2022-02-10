@@ -7,6 +7,7 @@ body {
     width: 954px;
     height: 594px;
     background-color: #BE0909;
+    margin margin-top: 20px; /* ? */
     position: absolute;
     z-index: -2;
 }
@@ -15,6 +16,8 @@ section {
     flex-direction: row;
     width: 954px; 
 }
+
+/* left side*/
 .form {
     display: flex;
     flex-direction: column;
@@ -23,6 +26,16 @@ section {
     position: relative;
         left: 137px;
         top: 40px;
+}
+#form:hover {
+    border-color: #FEFFFF;
+}
+#form {
+    background-color: #BE0909;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #468189;
 }
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -40,15 +53,7 @@ h3 {
     color: #FEFFFF;
     display: flex;
     align-content: center; 
-    justify-content: center; /* ?*/
-
-}
-#form {
-    background-color: #BE0909;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: #468189;
+    justify-content: center;
 }
 button {
     color: #FEFFFF;
@@ -64,24 +69,32 @@ button:hover{
     background-color: #9DBEBB;
     transform: scale(1.1);
 }
-.rectangle-orange {
+/* right side*/
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    max-width: 400px;
+}
+/*.rectangle-orange {
     width: 345px;
     height: 594px;
     background-color: #FFB039;
-    position: relative;
-        left:400px;
+    position: absolute; 
+        left: 400px;*/
 }
-.toplayer {
-    width: 954px;
-    display: flex;
+/*.duck {
+   /* width: 663px;
+    height: 603px;
+   /* display: flex;
     justify-content: flex-end;
-    position: absolute;
-    z-index: +2;
+    position: relative; /* or absolute? 
+        top: 40px;
+    z-index: +2;*/
     
 }
-img {
-    width: 663px;
-    height: 603px;
+
+
 
     
 }
